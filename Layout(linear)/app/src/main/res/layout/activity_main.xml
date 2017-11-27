@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+
+     android:orientation="vertical"
+   >
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Cupcake 1.5"
+        android:textAllCaps="false"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#000000"
+        android:drawableLeft="@drawable/c"
+        android:background="@drawable/roundcorner"
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Eclair 2.-2.1"
+        android:textAllCaps="false"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#000000"
+        android:drawableLeft="@drawable/e"
+        android:background="@drawable/roundcorner"
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Froyo 2.2-2.2.3"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:background="@drawable/roundcorner"
+        android:drawableLeft="@drawable/f"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Gingerbread 2.3-2.3.7"
+        android:textAllCaps="false"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#000000"
+        android:drawableLeft="@drawable/g"
+        android:background="@drawable/roundcorner"
+        android:layout_alignParentTop="true"
+        />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Hoheycomb 2.3.8"
+        android:textAllCaps="false"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#000000"
+        android:drawableLeft="@drawable/h"
+        android:background="@drawable/roundcorner"
+        android:layout_alignParentTop="true"
+        />
+
+
+
+</LinearLayout >
